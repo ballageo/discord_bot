@@ -18,7 +18,7 @@ async def on_member_remove(member):
 
 @client.command()
 async def profile(ctx):
-    await ctx.send(f"twitch.tv/sir_saltimus client is - {client.latency}")
+    await ctx.send(f"twitch.tv/sir_saltimus")
 
 @client.command(aliases=['8ball', 'test'])
 async def _8ball(ctx, *, question):
